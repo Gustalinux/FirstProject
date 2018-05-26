@@ -1,4 +1,4 @@
-#navbar {
+/*#navbar {
 	padding: 1em;
 	background-color: #63D8C2;
 	color: #DDD;
@@ -11,4 +11,44 @@
 	background-color: #83DACA;
 	color: #AAA;
 	text-decoration:none;
+
+}*/
+
+#navbar {
+	background-color: #111;
+	font-family: sans-serif;
+}
+
+#navbar ul {	
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#navbar li {
+	list-style-type: none;
+	float: left;
+}
+
+#navbar a {
+    display: block;
+    width: 129px;
+    height: 20px;
+    background-color: #111;
+    text-decoration: none;
+    color: #eee;
+    padding: 1em;
+    text-align: center;    
+	float: left;
+}
+
+#navbar a:hover {
+	color: #fff;
+	background-color: #333;
+}
+
+#navbar .active {
+	background-color: #00539f;
+	color: #ffffff;
 }
